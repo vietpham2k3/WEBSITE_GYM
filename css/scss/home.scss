@@ -3828,6 +3828,28 @@ body {
       width: 100%;
     }
   }
+     //
+     .box-3 {
+      width: 100%;
+      .banner {
+        width: 100%;
+        height: auto;
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .overlay1 {
+          p{
+            font-size: 20px;
+          }
+          top: 68%;
+          img {
+            width: 82px;
+            height: 82px;
+          }
+        }
+      }
+    }
 }
 // man hinh tablet
 @media screen and (max-width: 600px) {
@@ -4535,8 +4557,8 @@ body {
         font-size: 12px;
         top: 82%;
         img {
-          width: 82px;
-          height: 82px;
+          width: 60px;
+          height: 60px;
         }
       }
     }
