@@ -53,14 +53,14 @@
             }
 
             .price-d {
-                color: #F34E3A;
+                color: var(--cam-sam);
                 font-weight: 800;
             }
 
             .title-d {
                 font-weight: 200;
                 padding: 25px 0;
-                color: #9C9C9C;
+                color: var(--xam-khoi);
                 font-size: 17px;
             }
 
@@ -92,12 +92,12 @@
                 font-weight: 600;
                 padding: 10px 20px;
                 border: none;
-                background-color: #f34e3a;
+                background-color: var(--cam-sam);
                 color: white;
                 transition: all 0.3s ease-in-out;
 
                 &:hover {
-                    background-color: #29282d;
+                    background-color: var(--den-mo);
                     transition: all 0.3s ease-in-out;
                 }
 
@@ -112,11 +112,11 @@
                 letter-spacing: 1px;
 
                 span {
-                    color: #9C9C9C;
+                    color: var(--xam-khoi);
                     font-weight: 600;
 
                     &:hover {
-                        color: #f34e3a;
+                        color: var(--cam-sam);
                     }
                 }
             }
@@ -128,11 +128,11 @@
                 letter-spacing: 1px;
 
                 span {
-                    color: #9C9C9C;
+                    color: var(--xam-khoi);
                     font-weight: 600;
 
                     &:hover {
-                        color: #f34e3a;
+                        color: var(--cam-sam);
                     }
                 }
             }
@@ -146,11 +146,11 @@
                 letter-spacing: 1px;
 
                 span {
-                    color: #9C9C9C;
+                    color: var(--xam-khoi);
                     font-weight: 600;
 
                     &:hover {
-                        color: #f34e3a;
+                        color: var(--cam-sam);
                     }
                 }
             }
@@ -255,7 +255,7 @@
 
         .tabs .tab-2 {
             width: 50%;
-            color: #9C9C9C;
+            color: var(--xam-khoi);
             font-weight: 300;
             font-size: 17px;
         }
@@ -354,12 +354,12 @@
                 font-weight: 600;
                 padding: 10px 20px;
                 border: none;
-                background-color: #f34e3a;
+                background-color: var(--cam-sam);
                 color: white;
                 transition: all 0.3s ease-in-out;
 
                 &:hover {
-                    background-color: #29282d;
+                    background-color: var(--den-mo);
                     transition: all 0.3s ease-in-out;
                 }
 
@@ -395,6 +395,12 @@
         }
     }
 }
+
+:root{
+    --cam-sam: #f34e3a;
+    --xam-khoi: #9C9C9C;
+    --den-mo: #29282d;
+  }
 
 @media screen and (max-width: 1800px) {
     .box-shop {
@@ -461,14 +467,14 @@
                 }
     
                 .price-d {
-                    color: #F34E3A;
+                    color: var(--cam-sam);
                     font-weight: 800;
                 }
     
                 .title-d {
                     font-weight: 200;
                     padding: 25px 0;
-                    color: #9C9C9C;
+                    color: var(--xam-khoi);
                     font-size: 17px;
                 }
     
@@ -500,12 +506,12 @@
                     font-weight: 600;
                     padding: 10px 20px;
                     border: none;
-                    background-color: #f34e3a;
+                    background-color: var(--cam-sam);
                     color: white;
                     transition: all 0.3s ease-in-out;
     
                     &:hover {
-                        background-color: #29282d;
+                        background-color: var(--den-mo);
                         transition: all 0.3s ease-in-out;
                     }
     
@@ -520,11 +526,11 @@
                     letter-spacing: 1px;
     
                     span {
-                        color: #9C9C9C;
+                        color: var(--xam-khoi);
                         font-weight: 600;
     
                         &:hover {
-                            color: #f34e3a;
+                            color: var(--cam-sam);
                         }
                     }
                 }
@@ -536,11 +542,11 @@
                     letter-spacing: 1px;
     
                     span {
-                        color: #9C9C9C;
+                        color: var(--xam-khoi);
                         font-weight: 600;
     
                         &:hover {
-                            color: #f34e3a;
+                            color: var(--cam-sam);
                         }
                     }
                 }
@@ -554,11 +560,11 @@
                     letter-spacing: 1px;
     
                     span {
-                        color: #9C9C9C;
+                        color: var(--xam-khoi);
                         font-weight: 600;
     
                         &:hover {
-                            color: #f34e3a;
+                            color: var(--cam-sam);
                         }
                     }
                 }

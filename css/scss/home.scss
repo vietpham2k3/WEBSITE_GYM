@@ -6,6 +6,14 @@ body {
   }
 }
 
+:root{
+  --cam: #e8503b;
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
+  --trang: #fafafa;
+}
+
 .container {
   width: 1300px;
   padding: 0px 15px;
@@ -34,7 +42,7 @@ body {
         height: 100%;
         padding: 30px 0 30px 0;
         &:hover a {
-          color: #f34e3a;
+          color: var(--cam-sam);
         }
 
         /* hover cho duong link va link trong menu droplist  */
@@ -57,7 +65,7 @@ body {
         /* active */
         .active,
         .dropdown-content .active {
-          color: #f34e3a;
+          color: var(--cam-sam);
         }
 
         /* an dropdown content */
@@ -84,7 +92,7 @@ body {
             padding: 15px 20px;
             color: aliceblue;
             &:hover {
-              color: #f34e3a;
+              color: var(--cam-sam);
             }
           }
         }
@@ -277,7 +285,7 @@ body {
 }
 
 .box-round-4 {
-  background-color: #fafafa;
+  background-color: var(--trang);
 
   .trainProgram1 {
     width: 100%;
@@ -334,10 +342,10 @@ body {
         position: absolute;
         top: 50%;
         left: 100%;
-        color: #29282d;
+        color: var(--den-mo);
         width: 100%;
         height: 1px;
-        border-top: 1px dashed #9c9c9c;
+        border-top: 1px dashed var(--xam-khoi);
       }
 
       .after-2::after {
@@ -345,10 +353,10 @@ body {
         position: absolute;
         top: 50%;
         left: 100%;
-        color: #29282d;
+        color: var(--den-mo);
         width: 100%;
         height: 1px;
-        border-top: 1px dashed #9c9c9c;
+        border-top: 1px dashed var(--xam-khoi);
       }
 
       .after-3::after {
@@ -356,21 +364,21 @@ body {
         position: absolute;
         top: 50%;
         left: 100%;
-        color: #29282d;
+        color: var(--den-mo);
         width: 50%;
         height: 1px;
-        border-top: 1px dashed #9c9c9c;
+        border-top: 1px dashed var(--xam-khoi);
         z-index: -1;
       }
 
       .box-out-img {
-        background-color: #fafafa;
+        background-color: var(--trang);
         text-align: center;
         transform: translate(22%);
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        border: 1px dashed #9c9c9c;
+        border: 1px dashed var(--xam-khoi);
         z-index: 2;
 
         .border-img {
@@ -413,7 +421,7 @@ body {
           font-weight: lighter;
           font-size: 16px;
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          color: #9c9c9c;
+          color: var(--xam-khoi);
         }
       }
 
@@ -459,11 +467,11 @@ body {
   flex-wrap: wrap;
 
   .content-box8:nth-child(1n) {
-    background-color: #29282d;
+    background-color: var(--den-mo);
   }
 
   .content-box8:nth-child(3n) {
-    background-color: #e8503b;
+    background-color: var(--cam);
   }
 
   .content-box8 {
@@ -541,14 +549,14 @@ body {
   .box4 {
     cursor: pointer;
     &:hover p {
-      color: #f34e3a;
+      color: var(--cam-sam);
     }
     padding: 0 15px;
     width: 25%;
     float: left;
 
     span {
-      color: #9c9c9c;
+      color: var(--xam-khoi);
       font-size: 16px;
     }
 
@@ -600,17 +608,17 @@ body {
       }
 
       td {
-        border-bottom: 1px dashed #9c9c9c;
+        border-bottom: 1px dashed var(--xam-khoi);
         padding: 17px 20px 17px 40px;
       }
 
       td:first-child {
-        border-right: 1px dashed #9c9c9c;
+        border-right: 1px dashed var(--xam-khoi);
         border-collapse: collapse;
       }
 
       th:first-child {
-        border-right: 1px dashed #9c9c9c;
+        border-right: 1px dashed var(--xam-khoi);
       }
 
       tbody:last-child {
@@ -645,7 +653,7 @@ body {
             z-index: 10;
             padding: 14px 25px 12px;
             border: none;
-            background-color: #e8503b;
+            background-color: var(--cam);
             color: white;
             font-weight: bold;
             letter-spacing: 1px;
@@ -655,7 +663,7 @@ body {
 
           #iconTinh {
             position: absolute;
-            background-color: #e8503b;
+            background-color: var(--cam);
             margin-left: 1px;
             overflow: hidden;
 
@@ -726,7 +734,7 @@ body {
       #chuThich {
         font-size: 16px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: #9c9c9c;
+        color: var(--xam-khoi);
         font-weight: 400;
         margin: 10px 0;
         margin-bottom: 40px;
@@ -794,7 +802,7 @@ body {
           z-index: 10;
           padding: 14px 25px 12px;
           border: none;
-          background-color: #e8503b;
+          background-color: var(--cam);
           color: white;
           font-weight: bold;
           letter-spacing: 1px;
@@ -803,7 +811,7 @@ body {
 
         #iconTinh {
           position: absolute;
-          background-color: #e8503b;
+          background-color: var(--cam);
           margin-left: 1px;
           overflow: hidden;
 
@@ -871,7 +879,7 @@ body {
             color: white;
 
             &:hover {
-              color: #f34e3a;
+              color: var(--cam-sam);
             }
           }
         }
@@ -896,7 +904,7 @@ body {
 
             &:hover {
               svg {
-                fill: #e8503b;
+                fill: var(--cam);
               }
             }
           }
@@ -910,7 +918,7 @@ body {
         height: 194px;
         width: 34px;
         background-color: #ffffff;
-        color: #f34e3a;
+        color: var(--cam-sam);
         position: absolute;
         letter-spacing: 2px;
         left: 90.5%;
@@ -981,7 +989,7 @@ body {
 // footer
 .card-5 {
   width: 100%;
-  background-color: #e8503b;
+  background-color: var(--cam);
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;
@@ -1071,7 +1079,7 @@ body {
               z-index: 10;
               padding: 14px 25px 12px;
               border: none;
-              background-color: #e8503b;
+              background-color: var(--cam);
               color: white;
               font-weight: bold;
               letter-spacing: 1px;
@@ -1080,7 +1088,7 @@ body {
 
             #iconTinh {
               position: absolute;
-              background-color: #e8503b;
+              background-color: var(--cam);
               margin-left: 2px;
               overflow: hidden;
 
@@ -1139,12 +1147,12 @@ body {
               fill: white;
             }
 
-            color: #9c9c9c;
+            color: var(--xam-khoi);
           }
 
           &:hover {
             svg {
-              fill: #e8503b;
+              fill: var(--cam);
             }
           }
         }
@@ -1204,7 +1212,7 @@ body {
             transition: 0.5s ease-in-out;
 
             svg {
-              fill: #e8503b;
+              fill: var(--cam);
               transition: 0.5s ease-in-out;
             }
           }
@@ -1249,7 +1257,7 @@ body {
         transition: all 0.3s ease;
 
         &:hover {
-          background: #e8503b;
+          background: var(--cam);
           color: #fff;
           transition: all 0.3s ease;
         }
@@ -1266,12 +1274,12 @@ body {
     }
 
     .tab-item.active {
-      background: #e8503b;
+      background: var(--cam);
       color: white;
     }
 
     #cross #nameEVT {
-      color: #f34e3a;
+      color: var(--cam-sam);
     }
 
     #cross {
@@ -1442,7 +1450,7 @@ body {
                 .tool-tip {
                   transform: translate(-15.5%, -130%);
                   transition: 0.3s ease-in-out;
-                  background-color: #e8503b;
+                  background-color: var(--cam);
                   padding: 10px 48px;
                   text-transform: uppercase;
                   font-weight: 900;
@@ -1461,7 +1469,7 @@ body {
                   margin-left: -5px;
                   border-width: 5px;
                   border-style: solid;
-                  border-color: #e8503b transparent transparent transparent;
+                  border-color: var(--cam) transparent transparent transparent;
                 }
 
                 #nameEVT {
@@ -1644,7 +1652,7 @@ body {
             z-index: 10;
             padding: 14px 25px 12px;
             border: none;
-            background-color: #e8503b;
+            background-color: var(--cam);
             color: white;
             font-weight: bold;
             letter-spacing: 1px;
@@ -1654,7 +1662,7 @@ body {
 
           #iconTinh {
             position: absolute;
-            background-color: #e8503b;
+            background-color: var(--cam);
             margin-left: 0.5px;
             overflow: hidden;
 
@@ -1832,7 +1840,7 @@ body {
         margin: 15px 0;
         font-size: 16px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: #9c9c9c;
+        color: var(--xam-khoi);
       }
 
       .buttonForm {
@@ -1844,7 +1852,7 @@ body {
           z-index: 10;
           padding: 14px 25px 12px;
           border: none;
-          background-color: #e8503b;
+          background-color: var(--cam);
           color: white;
           font-weight: bold;
           letter-spacing: 1px;
@@ -1853,7 +1861,7 @@ body {
 
         #iconTinh {
           position: absolute;
-          background-color: #e8503b;
+          background-color: var(--cam);
           margin-left: 2px;
           overflow: hidden;
           margin-left: 1px;
@@ -1950,7 +1958,7 @@ body {
         margin: 15px 0;
         font-size: 16px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        color: #9c9c9c;
+        color: var(--xam-khoi);
       }
 
       .buttonForm {
@@ -1961,7 +1969,7 @@ body {
           z-index: 10;
           padding: 14px 25px 12px;
           border: none;
-          background-color: #e8503b;
+          background-color: var(--cam);
           color: white;
           font-weight: bold;
           letter-spacing: 1px;
@@ -1970,7 +1978,7 @@ body {
 
         #iconTinh {
           position: absolute;
-          background-color: #e8503b;
+          background-color: var(--cam);
           margin-left: 1px;
           overflow: hidden;
 
@@ -2098,20 +2106,20 @@ body {
           position: absolute;
           top: 50%;
           left: 100%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 140%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
 
         .after-3::after {
           content: "";
           position: absolute;
           top: 50%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 140%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
       }
     }
@@ -2267,20 +2275,20 @@ body {
           position: absolute;
           top: 50%;
           left: 100%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 140%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
 
         .after-3::after {
           content: "";
           position: absolute;
           top: 50%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 100%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
       }
     }
@@ -2787,10 +2795,10 @@ body {
           position: absolute;
           top: 50%;
           left: 100%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 120%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
 
         .after-3::after {
@@ -2798,10 +2806,10 @@ body {
           position: absolute;
           top: 50%;
           left: 50%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 120%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
       }
     }
@@ -3189,20 +3197,20 @@ body {
           position: absolute;
           top: 50%;
           left: 100%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 140%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
 
         .after-3::after {
           content: "";
           position: absolute;
           top: 50%;
-          color: #29282d;
+          color: var(--den-mo);
           width: 100%;
           height: 1px;
-          border-top: 1px dashed #9c9c9c;
+          border-top: 1px dashed var(--xam-khoi);
         }
       }
     }
@@ -4999,9 +5007,9 @@ body {
 
 //
 .xam {
-  background-color: #29282d;
+  background-color: var(--den-mo);
 }
 
 .cam {
-  background-color: #e8503b;
+  background-color: var(--cam);
 }

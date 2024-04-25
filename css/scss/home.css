@@ -6,6 +6,14 @@ body a {
   text-decoration: none;
 }
 
+:root {
+  --cam: #e8503b;
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
+  --trang: #fafafa;
+}
+
 .container {
   width: 1300px;
   padding: 0px 15px;
@@ -38,7 +46,7 @@ body a {
   /* an dropdown content */
 }
 .navbar .container .sidenav .dropdown:hover a {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .navbar .container .sidenav .dropdown:hover .dropdown-content {
   max-height: 550px;
@@ -57,7 +65,7 @@ body a {
 }
 .navbar .container .sidenav .dropdown .active,
 .navbar .container .sidenav .dropdown .dropdown-content .active {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .navbar .container .sidenav .dropdown .dropdown-content {
   overflow: hidden;
@@ -81,7 +89,7 @@ body a {
   color: aliceblue;
 }
 .navbar .container .sidenav .dropdown .dropdown-content a:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .navbar .container .sidenav .icon-nav {
   padding: 30px 0 30px 0;
@@ -238,7 +246,7 @@ body a {
 }
 
 .box-round-4 {
-  background-color: #fafafa;
+  background-color: var(--trang);
 }
 .box-round-4 .trainProgram1 {
   width: 100%;
@@ -289,40 +297,40 @@ body a {
   position: absolute;
   top: 50%;
   left: 100%;
-  color: #29282d;
+  color: var(--den-mo);
   width: 100%;
   height: 1px;
-  border-top: 1px dashed #9c9c9c;
+  border-top: 1px dashed var(--xam-khoi);
 }
 .box-round-4 .round-4-content .img-box .after-2::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 100%;
-  color: #29282d;
+  color: var(--den-mo);
   width: 100%;
   height: 1px;
-  border-top: 1px dashed #9c9c9c;
+  border-top: 1px dashed var(--xam-khoi);
 }
 .box-round-4 .round-4-content .img-box .after-3::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 100%;
-  color: #29282d;
+  color: var(--den-mo);
   width: 50%;
   height: 1px;
-  border-top: 1px dashed #9c9c9c;
+  border-top: 1px dashed var(--xam-khoi);
   z-index: -1;
 }
 .box-round-4 .round-4-content .img-box .box-out-img {
-  background-color: #fafafa;
+  background-color: var(--trang);
   text-align: center;
   transform: translate(22%);
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  border: 1px dashed #9c9c9c;
+  border: 1px dashed var(--xam-khoi);
   z-index: 2;
 }
 .box-round-4 .round-4-content .img-box .box-out-img .border-img {
@@ -360,7 +368,7 @@ body a {
   font-weight: lighter;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .box-round-4 .round-4-content .img-box p:nth-child(2n) {
   padding-top: 35px;
@@ -397,10 +405,10 @@ body a {
   flex-wrap: wrap;
 }
 .box-8 .content-box8:nth-child(1n) {
-  background-color: #29282d;
+  background-color: var(--den-mo);
 }
 .box-8 .content-box8:nth-child(3n) {
-  background-color: #e8503b;
+  background-color: var(--cam);
 }
 .box-8 .content-box8 {
   float: left;
@@ -465,10 +473,10 @@ body a {
   float: left;
 }
 .card4 .box4:hover p {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .card4 .box4 span {
-  color: #9c9c9c;
+  color: var(--xam-khoi);
   font-size: 16px;
 }
 .card4 .box4 p {
@@ -512,15 +520,15 @@ body a {
   padding: 18px 20px 18px 40px;
 }
 .formBMI .container .form1 td {
-  border-bottom: 1px dashed #9c9c9c;
+  border-bottom: 1px dashed var(--xam-khoi);
   padding: 17px 20px 17px 40px;
 }
 .formBMI .container .form1 td:first-child {
-  border-right: 1px dashed #9c9c9c;
+  border-right: 1px dashed var(--xam-khoi);
   border-collapse: collapse;
 }
 .formBMI .container .form1 th:first-child {
-  border-right: 1px dashed #9c9c9c;
+  border-right: 1px dashed var(--xam-khoi);
 }
 .formBMI .container .form1 tbody:last-child {
   border-bottom: none;
@@ -548,7 +556,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -557,7 +565,7 @@ body a {
 }
 .formBMI .container .form2 form .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 1px;
   overflow: hidden;
   padding: 13px 13px;
@@ -617,7 +625,7 @@ body a {
 .formBMI .container .form2 #chuThich {
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
   font-weight: 400;
   margin: 10px 0;
   margin-bottom: 40px;
@@ -678,7 +686,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -686,7 +694,7 @@ body a {
 }
 .card-4-transition .box-2-text-button .content-box-2-button .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 1px;
   overflow: hidden;
   padding: 11.5px 13px;
@@ -746,7 +754,7 @@ body a {
   color: white;
 }
 .card-4-transition .box-4-transition .content-card-4-transiton .content-hidden-box-4 #name a:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .card-4-transition .box-4-transition .content-card-4-transiton .content-hidden-box-4 p {
   font-size: 13px;
@@ -766,7 +774,7 @@ body a {
   fill: white;
 }
 .card-4-transition .box-4-transition .content-card-4-transiton .content-hidden-box-4 p a:hover svg {
-  fill: #e8503b;
+  fill: var(--cam);
 }
 .card-4-transition .box-4-transition .content-card-4-transiton .detail-img {
   transition: 0.5s ease-in-out;
@@ -775,7 +783,7 @@ body a {
   height: 194px;
   width: 34px;
   background-color: #ffffff;
-  color: #f34e3a;
+  color: var(--cam-sam);
   position: absolute;
   letter-spacing: 2px;
   left: 90.5%;
@@ -827,7 +835,7 @@ body a {
 
 .card-5 {
   width: 100%;
-  background-color: #e8503b;
+  background-color: var(--cam);
   display: flex;
   flex-wrap: wrap;
   justify-content: stretch;
@@ -909,7 +917,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -917,7 +925,7 @@ body a {
 }
 .footer .container .card-4-f .card-4-content form .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 2px;
   overflow: hidden;
   padding: 11.5px 13px;
@@ -960,7 +968,7 @@ body a {
   text-decoration: none;
 }
 .footer .container .card-4-f .card-4-content > a span {
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .footer .container .card-4-f .card-4-content > a span svg {
   width: 17px;
@@ -968,7 +976,7 @@ body a {
   fill: white;
 }
 .footer .container .card-4-f .card-4-content > a:hover svg {
-  fill: #e8503b;
+  fill: var(--cam);
 }
 .footer .container .card-4-f .card-4-content img {
   width: 135px;
@@ -1016,7 +1024,7 @@ body a {
   transition: 0.5s ease-in-out;
 }
 .row-box2 .box-2 .content-box2:nth-child(2n) p a:hover svg {
-  fill: #e8503b;
+  fill: var(--cam);
   transition: 0.5s ease-in-out;
 }
 
@@ -1058,7 +1066,7 @@ body a {
   transition: all 0.3s ease;
 }
 .table-tabs .content-table-tabs ul li:hover {
-  background: #e8503b;
+  background: var(--cam);
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -1071,11 +1079,11 @@ body a {
   color: white;
 }
 .table-tabs .content-table-tabs .tab-item.active {
-  background: #e8503b;
+  background: var(--cam);
   color: white;
 }
 .table-tabs .content-table-tabs #cross #nameEVT {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .table-tabs .content-table-tabs #cross table tbody tr td .box-text-table:hover #nameEVT {
   color: white;
@@ -1157,7 +1165,7 @@ body a {
 .table-tabs .content-table-tabs .tab-content table tbody tr td .box-text-table .tool-tip {
   transform: translate(-15.5%, -130%);
   transition: 0.3s ease-in-out;
-  background-color: #e8503b;
+  background-color: var(--cam);
   padding: 10px 48px;
   text-transform: uppercase;
   font-weight: 900;
@@ -1175,7 +1183,7 @@ body a {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #e8503b transparent transparent transparent;
+  border-color: var(--cam) transparent transparent transparent;
 }
 .table-tabs .content-table-tabs .tab-content table tbody tr td .box-text-table #nameEVT {
   color: aqua;
@@ -1321,7 +1329,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1330,7 +1338,7 @@ body a {
 }
 .slide .slide1 .carousel-item .box-text-btn-slide .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 0.5px;
   overflow: hidden;
   padding: 11.5px 13px;
@@ -1470,7 +1478,7 @@ body a {
   margin: 15px 0;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .box-video .box-2-video .box-text .buttonForm {
   position: relative;
@@ -1481,7 +1489,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1489,7 +1497,7 @@ body a {
 }
 .box-video .box-2-video .box-text .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 2px;
   overflow: hidden;
   margin-left: 1px;
@@ -1568,7 +1576,7 @@ body a {
   margin: 15px 0;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .box-video .box-2-anh .box-text .buttonForm {
   height: auto;
@@ -1578,7 +1586,7 @@ body a {
   z-index: 10;
   padding: 14px 25px 12px;
   border: none;
-  background-color: #e8503b;
+  background-color: var(--cam);
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1586,7 +1594,7 @@ body a {
 }
 .box-video .box-2-anh .box-text .buttonForm #iconTinh {
   position: absolute;
-  background-color: #e8503b;
+  background-color: var(--cam);
   margin-left: 1px;
   overflow: hidden;
   padding: 23.5px 22px;
@@ -1690,19 +1698,19 @@ body a {
     position: absolute;
     top: 50%;
     left: 100%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 140%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-round-4 .round-4-content .img-box .after-3::after {
     content: "";
     position: absolute;
     top: 50%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 140%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .card-4-transition .box-4-transition .content-card-4-transiton .content-hidden-box-4 {
     transform: translate(50%, 90%);
@@ -1811,19 +1819,19 @@ body a {
     position: absolute;
     top: 50%;
     left: 100%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 140%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-round-4 .round-4-content .img-box .after-3::after {
     content: "";
     position: absolute;
     top: 50%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 100%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .card-4-transition .box-4-transition .content-card-4-transiton .detail-img {
     left: 89%;
@@ -2186,20 +2194,20 @@ body a {
     position: absolute;
     top: 50%;
     left: 100%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 120%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-round-4 .round-4-content .img-box .after-3::after {
     content: "";
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 120%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-video {
     width: 100%;
@@ -2491,19 +2499,19 @@ body a {
     position: absolute;
     top: 50%;
     left: 100%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 140%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-round-4 .round-4-content .img-box .after-3::after {
     content: "";
     position: absolute;
     top: 50%;
-    color: #29282d;
+    color: var(--den-mo);
     width: 100%;
     height: 1px;
-    border-top: 1px dashed #9c9c9c;
+    border-top: 1px dashed var(--xam-khoi);
   }
   .box-3 {
     width: 100%;
@@ -3834,9 +3842,9 @@ body a {
   }
 }
 .xam {
-  background-color: #29282d;
+  background-color: var(--den-mo);
 }
 
 .cam {
-  background-color: #e8503b;
+  background-color: var(--cam);
 }/*# sourceMappingURL=home.css.map */

@@ -1,3 +1,9 @@
+:root{
+    --cam-sam: #f34e3a;
+    --xam-khoi: #9C9C9C;
+    --den-mo: #29282d;
+  }
+
 .product-cart-table {
     width: 100%;
     table {
@@ -99,12 +105,12 @@
             font-weight: 600;
             padding: 10px 20px;
             border: none;
-            background-color: #f34e3a;
+            background-color: var(--cam-sam);
             color: white;
             transition: all 0.3s ease-in-out;
 
             &:hover {
-                background-color: #29282d;
+                background-color: var(--den-mo);
                 transition: all 0.3s ease-in-out;
             }
         }
@@ -119,14 +125,14 @@
             float: right;
             padding: 10px 20px;
             border: none;
-            background-color: #f34e3a;
+            background-color: var(--cam-sam);
             color: white;
             transition: all 0.2s ease;
             a{
                 color: white;
             }
             &:hover {
-                background-color: #29282d;
+                background-color: var(--den-mo);
                 transition: all 0.2s ease;
             }
         }
@@ -177,7 +183,7 @@
 
             td {
                 padding: 14px 0;
-                color: #9C9C9C;
+                color: var(--xam-khoi);
             }
         }
     }
@@ -187,12 +193,12 @@
         font-weight: 600;
         padding: 10px 20px;
         border: none;
-        background-color: #f34e3a;
+        background-color: var(--cam-sam);
         color: white;
         transition: all 0.3s ease-in-out;
 
         &:hover {
-            background-color: #29282d;
+            background-color: var(--den-mo);
             transition: all 0.3s ease-in-out;
         }
     }
@@ -697,12 +703,12 @@
             font-weight: 600;
             padding: 10px 20px;
             border: none;
-            background-color: #f34e3a;
+            background-color: var(--cam-sam);
             color: white;
             transition: all 0.3s ease-in-out;
 
             &:hover {
-                background-color: #29282d;
+                background-color: var(--den-mo);
                 transition: all 0.3s ease-in-out;
             }
         }
@@ -717,14 +723,14 @@
             float: right;
             padding: 10px 20px;
             border: none;
-            background-color: #f34e3a;
+            background-color: var(--cam-sam);
             color: white;
             transition: all 0.2s ease;
             a{
                 color: white;
             }
             &:hover {
-                background-color: #29282d;
+                background-color: var(--den-mo);
                 transition: all 0.2s ease;
             }
         }

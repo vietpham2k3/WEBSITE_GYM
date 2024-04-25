@@ -1,3 +1,6 @@
+:root{
+  --xam-khoi: #9C9C9C;
+}
 .header{
     background-image: url("../../img/blog/blog-bg.jpg");
 }
@@ -40,7 +43,7 @@
         padding: 40px 20px 20px;
         #time-date{
           cursor: pointer;
-          color: #9C9C9C;
+          color: var(--xam-khoi);
           font-size: 13px;
           text-transform: uppercase;
           &:hover{
@@ -194,7 +197,7 @@
             padding: 40px 20px 20px;
             #time-date{
               cursor: pointer;
-              color: #9C9C9C;
+              color: var(--xam-khoi);
               font-size: 13px;
               text-transform: uppercase;
               &:hover{
@@ -313,7 +316,7 @@
             padding: 40px 20px 20px;
             #time-date{
               cursor: pointer;
-              color: #9C9C9C;
+              color: var(--xam-khoi);
               font-size: 13px;
               text-transform: uppercase;
               &:hover{

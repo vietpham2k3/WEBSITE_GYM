@@ -44,13 +44,13 @@
   letter-spacing: 0.5px;
 }
 .box-shop .box-product .box-text-detail .price-d {
-  color: #F34E3A;
+  color: var(--cam-sam);
   font-weight: 800;
 }
 .box-shop .box-product .box-text-detail .title-d {
   font-weight: 200;
   padding: 25px 0;
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-size: 17px;
 }
 .box-shop .box-product .box-text-detail input[type=number] {
@@ -78,13 +78,13 @@
   font-weight: 600;
   padding: 10px 20px;
   border: none;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   color: white;
   transition: all 0.3s ease-in-out;
   margin-bottom: 100px;
 }
 .box-shop .box-product .box-text-detail button:hover {
-  background-color: #29282d;
+  background-color: var(--den-mo);
   transition: all 0.3s ease-in-out;
 }
 .box-shop .box-product .box-text-detail .ma-sp-d {
@@ -95,11 +95,11 @@
   letter-spacing: 1px;
 }
 .box-shop .box-product .box-text-detail .ma-sp-d span {
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-weight: 600;
 }
 .box-shop .box-product .box-text-detail .ma-sp-d span:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-product .box-text-detail .cate-d {
   font-size: 14px;
@@ -107,11 +107,11 @@
   letter-spacing: 1px;
 }
 .box-shop .box-product .box-text-detail .cate-d span {
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-weight: 600;
 }
 .box-shop .box-product .box-text-detail .cate-d span:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-product .box-text-detail .tag-d {
   padding-bottom: 25px;
@@ -121,11 +121,11 @@
   letter-spacing: 1px;
 }
 .box-shop .box-product .box-text-detail .tag-d span {
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-weight: 600;
 }
 .box-shop .box-product .box-text-detail .tag-d span:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-product .made-with {
   background: #fd264f;
@@ -205,7 +205,7 @@
 }
 .box-shop .box-product .tabs .tab-2 {
   width: 50%;
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-weight: 300;
   font-size: 17px;
 }
@@ -287,13 +287,13 @@
   font-weight: 600;
   padding: 10px 20px;
   border: none;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   color: white;
   transition: all 0.3s ease-in-out;
   margin-bottom: 60px;
 }
 .box-shop .box-product .box-review button:hover {
-  background-color: #29282d;
+  background-color: var(--den-mo);
   transition: all 0.3s ease-in-out;
 }
 .box-shop .box-product .box-review p {
@@ -322,6 +322,12 @@
 }
 .box-shop .box-product .card-product .card-product-content {
   width: calc(25% - 25px);
+}
+
+:root {
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
 }
 
 @media screen and (max-width: 1800px) {
@@ -380,13 +386,13 @@
     letter-spacing: 0.5px;
   }
   .box-shop .box-product .box-text-detail .price-d {
-    color: #F34E3A;
+    color: var(--cam-sam);
     font-weight: 800;
   }
   .box-shop .box-product .box-text-detail .title-d {
     font-weight: 200;
     padding: 25px 0;
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-size: 17px;
   }
   .box-shop .box-product .box-text-detail input[type=number] {
@@ -414,13 +420,13 @@
     font-weight: 600;
     padding: 10px 20px;
     border: none;
-    background-color: #f34e3a;
+    background-color: var(--cam-sam);
     color: white;
     transition: all 0.3s ease-in-out;
     margin-bottom: 100px;
   }
   .box-shop .box-product .box-text-detail button:hover {
-    background-color: #29282d;
+    background-color: var(--den-mo);
     transition: all 0.3s ease-in-out;
   }
   .box-shop .box-product .box-text-detail .ma-sp-d {
@@ -431,11 +437,11 @@
     letter-spacing: 1px;
   }
   .box-shop .box-product .box-text-detail .ma-sp-d span {
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-weight: 600;
   }
   .box-shop .box-product .box-text-detail .ma-sp-d span:hover {
-    color: #f34e3a;
+    color: var(--cam-sam);
   }
   .box-shop .box-product .box-text-detail .cate-d {
     font-size: 14px;
@@ -443,11 +449,11 @@
     letter-spacing: 1px;
   }
   .box-shop .box-product .box-text-detail .cate-d span {
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-weight: 600;
   }
   .box-shop .box-product .box-text-detail .cate-d span:hover {
-    color: #f34e3a;
+    color: var(--cam-sam);
   }
   .box-shop .box-product .box-text-detail .tag-d {
     padding-bottom: 25px;
@@ -457,11 +463,11 @@
     letter-spacing: 1px;
   }
   .box-shop .box-product .box-text-detail .tag-d span {
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-weight: 600;
   }
   .box-shop .box-product .box-text-detail .tag-d span:hover {
-    color: #f34e3a;
+    color: var(--cam-sam);
   }
 }
 @media screen and (max-width: 1400px) {

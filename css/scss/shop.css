@@ -1,3 +1,9 @@
+:root {
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
+}
+
 .header {
   background-image: url("../../img/shop/shop-title-img-1.jpg");
   background-repeat: no-repeat;
@@ -23,7 +29,7 @@
   color: white;
 }
 .header .navbar .container .sidenav .icon-nav:hover a i {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .header .navbar .container .sidenav li a {
   color: white;
@@ -76,7 +82,7 @@
 }
 .box-shop .box-product .box-2-search .box-2-content-search p {
   padding-top: 15px;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .box-shop .box-product .box-2-search .box-2-content-search select {
@@ -149,7 +155,7 @@
   text-transform: uppercase;
 }
 .box-shop .box-product .card-product .card-product-content .box-name-price-product .name-product:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-product .card-product .card-product-content .box-name-price-product .price-product {
   margin-top: -10px;
@@ -163,13 +169,13 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
   text-transform: uppercase;
   font-size: 13px;
   font-weight: bold;
 }
 .box-shop .box-product .card-product .card-product-content .box-name-price-product .add:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-product .card-product .card-product-content .anh-product {
   transition: all 0.3s ease-in-out;
@@ -211,7 +217,7 @@
   font-weight: 900;
 }
 .box-shop .box-product .pageable ul li:hover {
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
 }
 .box-shop .box-product .pageable ul li:hover a {
   color: white;
@@ -222,7 +228,7 @@
 }
 .box-shop .box-product .pageable ul .viewAll a {
   transition: all 0.2s ease-in-out;
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .box-shop .box-product .pageable ul .viewAll:hover {
   background-color: white;
@@ -232,7 +238,7 @@
   color: black;
 }
 .box-shop .box-product .pageable .active {
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
 }
 .box-shop .box-product .pageable .active a {
   color: white;
@@ -276,12 +282,12 @@
   border: none;
   padding: 5px 15px;
   color: white;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   transition: all 0.2s ease-in-out;
 }
 .box-shop .box-fillter .fillter-price .range-slider span button:hover {
   transition: all 0.2s ease-in-out;
-  background-color: #29282d;
+  background-color: var(--den-mo);
 }
 .box-shop .box-fillter .fillter-price .range-slider input[type=range] {
   position: absolute;
@@ -345,7 +351,7 @@
   transition: all 0.3s ease-in-out;
 }
 .box-shop .box-fillter .fillter-category ul li a:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
   transition: all 0.3s ease-in-out;
   border-bottom: 4px solid red;
 }
@@ -382,7 +388,7 @@
   height: auto;
 }
 .box-shop .box-fillter .fillter-latest .box-product-new ul li a:hover span.name-p {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 .box-shop .box-fillter .fillter-latest .box-product-new ul li span.price-p {
   padding-left: 10px;
@@ -394,7 +400,7 @@
   font-size: 12px;
 }
 .box-shop .box-fillter .fillter-latest .box-product-new ul li span.price-p del {
-  color: #9c9c9c;
+  color: var(--xam-khoi);
 }
 .box-shop .box-fillter .fillter-banner {
   margin-bottom: 25px;
@@ -421,7 +427,7 @@
   display: inline-block;
 }
 .box-shop .box-fillter .fillter-tags .box-tags a:hover {
-  color: #f34e3a;
+  color: var(--cam-sam);
 }
 
 @media screen and (max-width: 1400px) {

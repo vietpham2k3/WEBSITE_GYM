@@ -1,3 +1,7 @@
+:root {
+  --xam-khoi: #9C9C9C;
+}
+
 .header {
   background-image: url("../../img/blog/blog-bg.jpg");
 }
@@ -42,7 +46,7 @@
 }
 .box-3-about .card-3-about .card-about .about-card-text #time-date {
   cursor: pointer;
-  color: #9C9C9C;
+  color: var(--xam-khoi);
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -185,7 +189,7 @@
   }
   .box-3-about .card-3-about .card-about .about-card-text #time-date {
     cursor: pointer;
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-size: 13px;
     text-transform: uppercase;
   }
@@ -292,7 +296,7 @@
   }
   .box-3-about .card-3-about .card-about .about-card-text #time-date {
     cursor: pointer;
-    color: #9C9C9C;
+    color: var(--xam-khoi);
     font-size: 13px;
     text-transform: uppercase;
   }

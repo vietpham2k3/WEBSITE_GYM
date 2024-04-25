@@ -1,3 +1,9 @@
+:root{
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
+}
+
 .header {
   background-image: url("../../img/ve-chung-toi/about-us-title-img-1.jpg");
   background-repeat: no-repeat;
@@ -26,7 +32,7 @@
             }
           }
           &:hover a i {
-            color: #f34e3a;
+            color: var(--cam-sam);
           }
         }
         li {
@@ -102,7 +108,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #29282d;
+  background-color: var(--den-mo);
   .card-2-about-content:nth-child(2n){
     background-image: url('../../img/ve-chung-toi/h2-background-img-1.jpg');
     height: auto;
@@ -221,7 +227,7 @@
           content: "";
           display: block;
           height: 10px;
-          background-color: #f34e3a;
+          background-color: var(--cam-sam);
           width: 75%;
         }
         .rg1{
@@ -234,7 +240,7 @@
           content: "";
           display: block;
           height: 10px;
-          background-color: #f34e3a;
+          background-color: var(--cam-sam);
           width: 90%;
         }
         .rg2{
@@ -247,7 +253,7 @@
           content: "";
           display: block;
           height: 10px;
-          background-color: #f34e3a;
+          background-color: var(--cam-sam);
           width: 70%;
         }
         .rg3{
@@ -260,7 +266,7 @@
           content: "";
           display: block;
           height: 10px;
-          background-color: #f34e3a;
+          background-color: var(--cam-sam);
           width: 83%;
         }
         .rg4{
@@ -311,7 +317,7 @@
       padding: 40px 20px 20px;
       #time-date{
         cursor: pointer;
-        color: #9C9C9C;
+        color: var(--xam-khoi);
         font-size: 13px;
         text-transform: uppercase;
         &:hover{

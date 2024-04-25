@@ -1,3 +1,9 @@
+:root {
+  --cam-sam: #f34e3a;
+  --xam-khoi: #9C9C9C;
+  --den-mo: #29282d;
+}
+
 .product-cart-table {
   width: 100%;
 }
@@ -78,12 +84,12 @@
   font-weight: 600;
   padding: 10px 20px;
   border: none;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   color: white;
   transition: all 0.3s ease-in-out;
 }
 .box-2-voucher .fill-voucher button:hover {
-  background-color: #29282d;
+  background-color: var(--den-mo);
   transition: all 0.3s ease-in-out;
 }
 .box-2-voucher .update-cart {
@@ -95,7 +101,7 @@
   float: right;
   padding: 10px 20px;
   border: none;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   color: white;
   transition: all 0.2s ease;
 }
@@ -103,7 +109,7 @@
   color: white;
 }
 .box-2-voucher .update-cart button:hover {
-  background-color: #29282d;
+  background-color: var(--den-mo);
   transition: all 0.2s ease;
 }
 
@@ -140,19 +146,19 @@
 }
 .cart-total table tr td {
   padding: 14px 0;
-  color: #9C9C9C;
+  color: var(--xam-khoi);
 }
 .cart-total button {
   font-size: 18px;
   font-weight: 600;
   padding: 10px 20px;
   border: none;
-  background-color: #f34e3a;
+  background-color: var(--cam-sam);
   color: white;
   transition: all 0.3s ease-in-out;
 }
 .cart-total button:hover {
-  background-color: #29282d;
+  background-color: var(--den-mo);
   transition: all 0.3s ease-in-out;
 }
 
@@ -490,12 +496,12 @@
     font-weight: 600;
     padding: 10px 20px;
     border: none;
-    background-color: #f34e3a;
+    background-color: var(--cam-sam);
     color: white;
     transition: all 0.3s ease-in-out;
   }
   .box-2-voucher .fill-voucher button:hover {
-    background-color: #29282d;
+    background-color: var(--den-mo);
     transition: all 0.3s ease-in-out;
   }
   .box-2-voucher .update-cart {
@@ -507,7 +513,7 @@
     float: right;
     padding: 10px 20px;
     border: none;
-    background-color: #f34e3a;
+    background-color: var(--cam-sam);
     color: white;
     transition: all 0.2s ease;
   }
@@ -515,7 +521,7 @@
     color: white;
   }
   .box-2-voucher .update-cart button:hover {
-    background-color: #29282d;
+    background-color: var(--den-mo);
     transition: all 0.2s ease;
   }
 }
