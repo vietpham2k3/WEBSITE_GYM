@@ -197,6 +197,8 @@
 }
 .box-shop .box-product .pageable ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 .box-shop .box-product .pageable ul li {
   cursor: pointer;

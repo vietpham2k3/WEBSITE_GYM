@@ -207,6 +207,8 @@
       margin-bottom: 66px;
       ul {
         list-style: none;
+        display: flex;
+        flex-direction: row;
         li {
           cursor: pointer;
           margin: 0 5px;
