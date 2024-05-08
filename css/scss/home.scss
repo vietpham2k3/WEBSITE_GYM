@@ -1227,295 +1227,41 @@ body {
   background-image: url("../../img/h1-backround-text-img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 30% 0px;
+  background-position: 30% 35px;
   .content-table-tabs {
     width: 100%;
-    ul {
-      padding-top: 87px;
-      max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    .buttonCheck{
+      margin-top: 60px;
       display: flex;
-      align-items: center;
-
-      li {
-        margin-left: 35px;
-        margin-bottom: 10px;
-        font-size: 13px;
-        letter-spacing: 1px;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      justify-content: center;
+      button{
+        border: none;
+        padding: 10px 20px;
         color: white;
-        padding: 10px 10px;
-        background: transparent;
-        width: 14.2222%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
-        box-shadow: 0px 0px 3px transparent;
-        cursor: pointer;
-        border-radius: 0px;
-        transition: all 0.3s ease;
-
-        &:hover {
-          background: var(--cam);
-          color: #fff;
-          transition: all 0.3s ease;
+        background-color: var(--cam);
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+          transition: all 0.3s ease-in-out;
+          background: white;
+          color: black;
         }
       }
     }
-
-    #first-dynamic-table-2 {
-      overflow: auto;
-      transition: 0.5s ease-in-out;
+    .box-anh{
+      overflow: hidden;
+      img{
+      cursor: pointer;
+      padding-top: 60px;
       width: 100%;
-      background: #302f34;
-      box-shadow: 0px 0px 3px rgb(18 16 16 / 30%);
-      color: white;
+      height: 100%;
     }
-
-    .tab-item.active {
-      background: var(--cam);
-      color: white;
     }
-
-    #cross #nameEVT {
-      color: var(--cam-sam);
-    }
-
-    #cross {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    #cardio #nameEVT {
-      color: greenyellow;
-    }
-
-    #cardio {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    #box #nameEVT {
-      color: yellow;
-    }
-
-    #box {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    #meditation #nameEVT {
-      color: violet;
-    }
-
-    #meditation {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    #yoga #nameEVT {
-      color: red;
-    }
-
-    #yoga {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    #body #nameEVT {
-      color: gray;
-    }
-
-    #body {
-      table {
-        tbody {
-          tr {
-            td {
-              .box-text-table {
-                &:hover #nameEVT {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .tab-content {
-      transition: 0.5s ease-in-out;
-      max-width: 100%;
-      display: none;
-      position: relative;
-
-      table {
-        max-width: 100%;
-
-        thead {
-          tr {
-            padding: 10px 15px 12px;
-            text-align: center;
-
-            th {
-              width: 12.5%;
-              height: 83px;
-              font-size: 13px;
-              letter-spacing: 1px;
-              font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-              font-weight: 400;
-            }
-          }
-        }
-
-        tbody {
-          border-collapse: collapse;
-          border-left: hidden;
-          border-right: hidden;
-          border-bottom: hidden;
-          border-top: 1px dashed black;
-
-          tr {
-            #time {
-              font-size: 14px;
-            }
-
-            height: 83px;
-            text-align: center;
-
-            td {
-              border-top: 1px dashed white;
-              border-left: 1px solid black;
-              padding: 25px;
-
-              .box-text-table {
-                vertical-align: middle;
-                line-height: 14px;
-
-                .tool-tip {
-                  transform: translate(-15.5%, -130%);
-                  transition: 0.3s ease-in-out;
-                  background-color: var(--cam);
-                  padding: 10px 48px;
-                  text-transform: uppercase;
-                  font-weight: 900;
-                  font-size: 13px;
-                  opacity: 0;
-                  visibility: hidden;
-                  position: absolute;
-                }
-
-                .tool-tip::after {
-                  content: "";
-                  position: absolute;
-                  top: 100%;
-                  /* mũi tên ở phía dưới tooltip */
-                  left: 50%;
-                  margin-left: -5px;
-                  border-width: 5px;
-                  border-style: solid;
-                  border-color: var(--cam) transparent transparent transparent;
-                }
-
-                #nameEVT {
-                  color: aqua;
-                  font-weight: bold;
-                  letter-spacing: 0.5px;
-                  text-transform: uppercase;
-                }
-
-                #time {
-                  font-size: 13px;
-                }
-
-                #nameHLV {
-                  color: #717274;
-                  margin: 0;
-                  font-size: 15px;
-                }
-
-                &:hover .tool-tip {
-                  opacity: 1;
-                  visibility: visible;
-                  transition: 0.3s ease-in-out;
-                }
-
-                &:hover #nameEVT {
-                  color: white;
-                }
-
-                &:hover #nameHLV {
-                  color: white;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .tab-content.active {
-      display: block;
-    }
-
-    padding: 125px 0 150px;
-    margin: 0 8px;
-
+    padding: 125px 0 135px;
     h1 {
       text-align: center;
       color: white;
@@ -2221,7 +1967,7 @@ body {
 }
 
 @media screen and (max-width: 1260px) {
-
+  // 
   .box-3 {
     width: 100%;
     .banner {
@@ -2355,6 +2101,16 @@ body {
   // 
 
 
+}
+
+@media screen and (max-width: 1200px) {
+  .table-tabs{
+    background-position: 30% 90px;
+    .content-table-tabs{
+      padding: 155px 0 100px;
+
+    }
+  }
 }
 
 // man hinh tablet
@@ -3446,85 +3202,6 @@ body {
     max-width: 600px !important;
   }
   //
-  .table-tabs {
-    max-width: 100%;
-
-    .content-table-tabs {
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-      ul {
-        padding-right: 50px;
-        padding-top: 60px;
-        width: 100%;
-
-        li {
-          width: 40%;
-        }
-      }
-
-      #first-dynamic-table-2 {
-        overflow: scroll;
-        width: 100%;
-
-        .tab-content {
-          table {
-            width: 100%;
-            thead {
-              tr {
-                padding: 10px 15px 12px;
-                text-align: center;
-
-                th {
-                  width: 12.5%;
-                  height: 83px;
-                  font-size: 13px;
-                  letter-spacing: 1px;
-                  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-                  font-weight: 400;
-                }
-              }
-            }
-
-            tbody {
-              border-collapse: collapse;
-              border-left: hidden;
-              border-right: hidden;
-              border-bottom: hidden;
-              border-top: 1px dashed black;
-
-              tr {
-                #time {
-                  font-size: 14px;
-                }
-
-                height: 83px;
-                text-align: center;
-
-                td {
-                  border-top: 1px dashed white;
-                  border-left: 1px solid black;
-                  padding: 5px;
-
-                  .box-text-table {
-                    vertical-align: middle;
-                    line-height: 9px;
-
-                    .tool-tip {
-                      transform: translate(-5%, -130%);
-                      padding: 10px 29px;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
-  //
   .slide1 {
     width: 100%;
     .carousel-item {
@@ -3937,7 +3614,12 @@ body {
         }
   }
   }
-
+    // 
+    .table-tabs{
+      .content-table-tabs{
+        padding: 155px 0 85px;
+      }
+    }
   //
   .card-5 {
     width: 100%;
@@ -4166,15 +3848,12 @@ body {
       }
     }
   }
-  //
-  .table-tabs {
-    .content-table-tabs {
-      padding: 80px 0 80px;
-      ul {
-        padding-right: 0px;
+      // 
+      .table-tabs{
+        .content-table-tabs{
+          padding: 155px 0 75px;
+        }
       }
-    }
-  }
   //
   .card-4-transition {
     .box-2-text-button {
@@ -4350,6 +4029,17 @@ body {
   .container,
   .container-sm {
     max-width: 430px !important;
+  }
+  // 
+  .table-tabs{
+    .content-table-tabs{
+      h1{
+        font-size: 38px;
+      }
+      button{
+        font-size: 15px;
+      }
+    }
   }
   //
   .card-4-transition {
@@ -4572,17 +4262,6 @@ body {
     }
   }
   //
-  .table-tabs {
-    .content-table-tabs {
-      h1 {
-        font-size: 35px;
-      }
-      ul li {
-        width: 70%;
-      }
-    }
-  }
-  //
   .card-4-transition {
     padding: 100px 0 30px;
     .box-2-text-button {
@@ -4716,6 +4395,17 @@ body {
   .container-sm {
     max-width: 330px !important;
   }
+    // 
+    .table-tabs{
+      .content-table-tabs{
+        h1{
+          font-size: 30px;
+        }
+        button{
+          font-size: 10px;
+        }
+      }
+    }
   //
   .card-4-transition {
     .box-2-text-button{
