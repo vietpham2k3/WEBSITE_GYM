@@ -162,14 +162,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header h1 {
-  top: 35%;
-}
-
-@media screen and (max-width: 1500px) {
-  .header h1 {
-    top: 35%;
-  }
+@media screen {
   table tbody tr th {
     font-size: 15px;
   }
@@ -248,9 +241,6 @@
   .header {
     height: 380px;
   }
-  .header h1 {
-    top: 30%;
-  }
   .product-cart-table table thead tr th {
     padding: 25px 2px;
   }
@@ -283,9 +273,6 @@
   }
   .header {
     height: 300px;
-  }
-  .header h1 {
-    top: 25%;
   }
   .product-cart-table table thead tr th {
     padding: 25px 2px;
@@ -397,7 +384,6 @@
     height: 250px;
   }
   .header h1 {
-    top: 22%;
     font-size: 32px;
   }
   .product-cart-table {
@@ -442,7 +428,6 @@
   }
   .header h1 {
     font-size: 30px;
-    top: 25%;
   }
   .product-cart-table {
     overflow: auto;
@@ -538,7 +523,6 @@
     height: 230px;
   }
   .header h1 {
-    top: 26%;
     font-size: 32px;
   }
   .product-cart-table {

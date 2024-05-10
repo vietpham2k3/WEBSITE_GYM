@@ -7,12 +7,14 @@
 .header {
   background-image: url("../../img/ve-chung-toi/about-us-title-img-1.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
-  background-position: 50% 0px;
+  background-position: 60% 0px;
   height: 531px;
+  position: relative;
 }
 .header .navbar {
+  height: 20%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -36,12 +38,12 @@
   color: white;
 }
 .header h1 {
-  text-transform: uppercase;
   position: absolute;
+  left: 10%;
+  top: 60%;
+  text-transform: uppercase;
   font-size: 60px;
   font-weight: bold;
-  top: 15%;
-  left: 8%;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -99,6 +101,8 @@
 }
 .card-2-about .card-2-about-content:nth-child(2n) {
   background-image: url("../../img/ve-chung-toi/h2-background-img-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
   background-position: -150px 0%;
 }
@@ -364,11 +368,6 @@
   padding: 30px 15px;
 }
 
-@media screen and (max-width: 1800px) {
-  .header h1 {
-    top: 35%;
-  }
-}
 @media screen and (max-width: 1200px) {
   .card-2-about .card-2-about-content:nth-child(2n) .range {
     transform: translateY(60%);
@@ -401,6 +400,9 @@
   }
   .header .navbar {
     width: auto;
+  }
+  .header h1 {
+    font-size: 40px;
   }
   .header-2 {
     top: 0;
@@ -490,9 +492,6 @@
   .header .navbar {
     width: auto;
   }
-  .header h1 {
-    font-size: 45px;
-  }
 }
 @media screen and (max-width: 620px) {
   .box-3-about {
@@ -533,9 +532,6 @@
   .header .navbar {
     width: auto;
   }
-  .header h1 {
-    font-size: 45px;
-  }
   .card4 {
     padding: 30px 0 50px;
   }
@@ -562,19 +558,10 @@
     padding: 150px 50px 120px;
   }
   .card-2-about .card-2-about-content .box-text h1 {
-    text-transform: uppercase;
     font-size: 28px;
-    color: #FFFFFF;
-    font-weight: bold;
-    position: relative;
   }
   .card-2-about .card-2-about-content .box-text > span {
-    position: absolute;
-    color: #3f3e42;
     font-size: 90px;
-    font-weight: 300;
-    font-family: Teko, sans-serif;
-    transform: translate(0, -40%);
   }
   .card-2-about .card-2-about-content .box-text p {
     margin: 15px 0;
@@ -596,13 +583,6 @@
     background-position-y: 100px;
     background-size: contain;
     height: 360px;
-  }
-  .header .navbar {
-    width: auto;
-  }
-  .header h1 {
-    top: 28%;
-    font-size: 38px;
   }
   .card4 {
     padding: 20px 0 50px;
@@ -648,7 +628,6 @@
     width: auto;
   }
   .header h1 {
-    top: 26%;
     font-size: 30px;
   }
   .card4 {
@@ -668,7 +647,6 @@
     width: auto;
   }
   .header h1 {
-    top: 25%;
     font-size: 26px;
   }
   .card4 {
@@ -692,11 +670,7 @@
     background-size: contain;
     height: 250px;
   }
-  .header .navbar {
-    width: auto;
-  }
   .header h1 {
-    top: 23%;
     font-size: 26px;
   }
   .slider-2 .carousel-inner .carousel-item h1 {

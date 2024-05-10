@@ -8,9 +8,11 @@
   background-image: url("../../img/shop/shop-title-img-1.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   background-position: 50% 0px;
   height: 531px;
+  position: relative;
 }
 .header .navbar {
   width: 100%;
@@ -35,12 +37,12 @@
   color: white;
 }
 .header h1 {
-  text-transform: uppercase;
   position: absolute;
+  left: 10%;
+  top: 60%;
+  text-transform: uppercase;
   font-size: 60px;
   font-weight: bold;
-  top: 30%;
-  left: 8%;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -437,7 +439,6 @@
     padding-left: 20px;
   }
   .header h1 {
-    top: 35%;
     font-size: 46px;
   }
 }
@@ -549,9 +550,6 @@
     display: none;
     width: auto;
   }
-  .header h1 {
-    top: 32%;
-  }
   .header-2 {
     top: 0;
   }
@@ -629,7 +627,6 @@
     width: auto;
   }
   .header h1 {
-    top: 25%;
     font-size: 45px;
   }
   .box-shop {
@@ -683,7 +680,6 @@
     width: auto;
   }
   .header h1 {
-    top: 25%;
     font-size: 36px;
   }
   .box-shop {
@@ -734,7 +730,6 @@
     width: auto;
   }
   .header h1 {
-    top: 25%;
     font-size: 36px;
   }
   .box-shop {
@@ -849,9 +844,6 @@
   .header .navbar {
     width: auto;
   }
-  .header h1 {
-    font-size: 35px;
-  }
   .box-shop {
     max-width: 100%;
     padding: 50px 0 82px;
@@ -956,7 +948,6 @@
   }
   .header h1 {
     font-size: 25px;
-    transform: translateY(-60%);
   }
   .box-shop {
     max-width: 100%;
@@ -1027,9 +1018,6 @@
   }
   .header .navbar {
     width: auto;
-  }
-  .header h1 {
-    transform: translateY(-100%);
   }
   .box-shop {
     max-width: 100%;

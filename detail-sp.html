@@ -429,21 +429,38 @@
         <div class="box-shop">
             <div class="box-product">
                 <div class="box-anh-detail">
-                    <div class="box-4-detail-doc">
-                        <a href=""><img style="padding-top: 0;" src="/img/shop/detail-ball-1.jpg" alt=""></a>
-                        <a href=""><img src="/img/shop/detail-ball-2.jpg" alt=""></a>
-                        <a href=""><img src="/img/shop/detail-ball-3.jpg" alt=""></a>
-                        <a href=""><img src="/img/shop/detail-ball-4.jpg" alt=""></a>
-                    </div>
-                    <div class="box-main-img">
-                        <a href=""><img src="/img/shop/shop-image-14-768x952.jpg" alt=""></a>
-                    </div>
-                    <div class="box-4-detail-doc-2">
-                        <a href=""><img style="padding-right: 8px;" src="/img/shop/detail-ball-1.jpg" alt=""></a>
-                        <a href=""><img style="padding-left: 8px;" src="/img/shop/detail-ball-2.jpg" alt=""></a>
-                        <a href=""><img style="padding-right: 8px;" src="/img/shop/detail-ball-3.jpg" alt=""></a>
-                        <a href=""><img style="padding-left: 8px;" src="/img/shop/detail-ball-4.jpg" alt=""></a>
-                    </div>
+                    <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+                    thumbs-swiper=".mySwiper2" loop="true" space-between="10" navigation="true">
+                    <swiper-slide>
+                        <img style="padding-top: 0;" src="/img/shop/detail-ball-1.jpg" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="/img/shop/detail-ball-2.jpg" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="/img/shop/detail-ball-3.jpg" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="/img/shop/detail-ball-4.jpg" alt="">
+                    </swiper-slide>
+                  </swiper-container>
+                  <div class="box-emty"></div>
+                  <swiper-container class="mySwiper2" loop="true" space-between="10" slides-per-view="4" free-mode="true"
+                  watch-slides-progress="true">
+                  <swiper-slide>
+                      <img style="padding-top: 0;" src="/img/shop/detail-ball-1.jpg" alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                      <img src="/img/shop/detail-ball-2.jpg" alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                      <img src="/img/shop/detail-ball-3.jpg" alt="">
+                  </swiper-slide>
+                  <swiper-slide>
+                      <img src="/img/shop/detail-ball-4.jpg" alt="">
+                  </swiper-slide>
+                </swiper-container>
+                
                 </div>
                 <div class="box-text-detail">
                     <p class="name-d">Bóng Da Adidas</p>
@@ -739,6 +756,7 @@
     <!--  -->
     <!-- </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="js/detail.js"></script>
 </body>
 </html>

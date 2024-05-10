@@ -204,18 +204,7 @@
     }
 }
 
-.header {
-    h1 {
-      top: 35%;
-    }
-}
-
-  @media screen and (max-width: 1500px) {
-    .header {
-        h1 {
-          top: 35%;
-        }
-      }
+  @media screen {
     table {
 
         tbody {
@@ -336,9 +325,6 @@
     }
     .header {
         height: 380px;
-        h1 {
-          top: 30%;
-        }
       }
     //   
     .product-cart-table {
@@ -390,9 +376,6 @@
     }
     .header {
        height: 300px;
-       h1{
-        top: 25%;
-       }
       }
   //   
   .product-cart-table {
@@ -570,7 +553,6 @@
         object-fit: cover;
         height: 250px;
         h1 {
-            top: 22%;
           font-size: 32px;
         }
       }
@@ -631,7 +613,6 @@
         height: 240px;
         h1 {
           font-size: 30px;
-          top: 25%;
         }
       }
   //   
@@ -749,7 +730,6 @@
     .header {
         height: 230px;
         h1 {
-            top: 26%;
           font-size: 32px;
         }
       }
